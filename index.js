@@ -12,6 +12,10 @@ app.get('/',(req,res)=>{
 app.get('/chefs',(req,res)=>{
     res.send(chefs);
   });
+  app.get('/recipeDetails/:recipeId', (req, res) => {
+    
+    res.send(recipes);
+});
 app.listen(port,()=>{
     console.log(`Dragon API is running on port:${port}`)
 })
