@@ -2,45 +2,60 @@
     {    
         "id": "1", 
         "name": "Mario Batali",    
-        "picture": "https://example.com/mario-batali.jpg",   
-         "years_of_experience": 25 ,
-         "Numbers of recipes":10,
-         "Likes":135
+        "picture":"https://i.pinimg.com/564x/4e/65/d8/4e65d87dddb6a817f4cae25d657abeb1.jpg", 
+        "description": "Mario Batali is an American chef, writer, restaurateur, and media personality. He is the owner of several restaurants and has published several cookbooks.",
+      
+         "years_of_experience": "25 years" ,
+         "numbers_of_recipes":10,
+         "likes":135
 
     },  
     {   
         "id": "2", 
-         "name": "Giada De Laurentiis",    "picture": "https://example.com/giada-de-laurentiis.jpg",    "years_of_experience": 20 ,
-         "Numbers of recipes":15,
-         "Likes":200
+         "name": "Giada De Laurentiis",    
+         "picture":"https://gennarocontaldo.com/wp-content/uploads/2016/12/gennaro_tom_smith.jpg", 
+         "description": "Giada De Laurentiis is an Italian-American chef, writer, and television personality. She is the host of several cooking shows and has published several cookbooks.",
+        "years_of_experience": "20 years" ,
+         "numbers_of_recipes":15,
+         "likes":200
      }, 
      {  
         "id": "3",   
-        "name": "Massimo Bottura",    "picture": "https://example.com/massimo-bottura.jpg",    "years_of_experience": 30,
-        "Numbers of recipes":19,
-         "Likes":175
+        "name": "Massimo Bottura",    
+        "picture": "https://cdn.vox-cdn.com/thumbor/LR7aloR9EMjtWEqI5PfoxrekShk=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13437331/GettyImages_947556768.jpg", 
+        "description": "Massimo Bottura is an Italian chef and restaurateur. He is the owner of Osteria Francescana, a three-Michelin-star restaurant in Modena, Italy.",   
+        "years_of_experience": "30 years",
+        "numbers_of_recipes":19,
+         "likes":175
      },  
      
      {   
         "id": "4",  
         "name": "Carlo Cracco",   
-         "picture": "https://example.com/carlo-cracco.jpg",   
-          "years_of_experience": 20,
-          "Numbers of recipes":15,
-         "Likes":166 
+         "picture": "https://media.cnn.com/api/v1/images/stellar/prod/150304111651-massimo-bottura-osteria.jpg?q=w_1600,h_1032,x_0,y_0,c_fill",
+         "description": "Carlo Cracco is an Italian chef and television personality. He is the owner of several restaurants in Milan and has appeared on several Italian cooking shows.",   
+          "years_of_experience": "20 years",
+          "numbers_of_recipes":15,
+         "likes":166 
          
       }, 
       
       {   
         "id": "5", 
-        "name": "Gualtiero Marchesi",    "picture": "https://example.com/gualtiero-marchesi.jpg",    "years_of_experience": 40,
-        "Numbers of recipes":17,
-         "Likes":185
+        "name": "Gualtiero Marchesi",    
+        "picture": "https://i0.wp.com/www.foodandwinegazette.com/wp-content/uploads/2019/10/img_3971.jpg?fit=1095%2C912&ssl=1", 
+        "description": "Gualtiero Marchesi was an Italian chef and restaurateur. He was known for being the first Italian chef to receive three Michelin stars and for his innovative approach to Italian cuisine.",   
+        "years_of_experience": "10 years",
+        "numbers_of_recipes":17,
+         "likes":185
      }, 
       {   
         "id": "6",
-         "name": "Lidia Bastianich",    "picture": "https://example.com/lidia-bastianich.jpg",    "years_of_experience": 50,
-         "Numbers of recipes":19,
-         "Likes":225  
+         "name": "Lidia Bastianich",    
+         "picture": "https://thiswaytoitaly.com/wp-content/uploads/2022/11/Gianfranco-Chiarini-Italian-Chefs.webp",    
+         "description": "Lidia Bastianich is an Italian-American chef, television personality, and restaurateur. She is the owner of several restaurants and has published several cookbooks.",
+         "years_of_experience": "14 years",
+         "numbers_of_recipes":19,
+         "likes":225  
       }
     ]
