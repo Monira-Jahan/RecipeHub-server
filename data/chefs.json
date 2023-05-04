@@ -1,0 +1,25 @@
+[  
+    {    
+        "name": "Mario Batali",    
+        "picture": "https://example.com/mario-batali.jpg",    "years_of_experience": 25  
+    },  
+    {   
+         "name": "Giada De Laurentiis",    "picture": "https://example.com/giada-de-laurentiis.jpg",    "years_of_experience": 20 
+     }, 
+     {    
+        "name": "Massimo Bottura",    "picture": "https://example.com/massimo-bottura.jpg",    "years_of_experience": 30  
+     },  
+     
+     {    
+        "name": "Carlo Cracco",   
+         "picture": "https://example.com/carlo-cracco.jpg",    "years_of_experience": 20 
+         
+      }, 
+      
+      {    
+        "name": "Gualtiero Marchesi",    "picture": "https://example.com/gualtiero-marchesi.jpg",    "years_of_experience": 40 
+     }, 
+      {   
+         "name": "Lidia Bastianich",    "picture": "https://example.com/lidia-bastianich.jpg",    "years_of_experience": 50  
+      }
+    ]
