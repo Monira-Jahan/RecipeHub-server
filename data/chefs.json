@@ -1,25 +1,46 @@
 [  
     {    
+        "id": "1", 
         "name": "Mario Batali",    
-        "picture": "https://example.com/mario-batali.jpg",    "years_of_experience": 25  
+        "picture": "https://example.com/mario-batali.jpg",   
+         "years_of_experience": 25 ,
+         "Numbers of recipes":10,
+         "Likes":135
+
     },  
     {   
-         "name": "Giada De Laurentiis",    "picture": "https://example.com/giada-de-laurentiis.jpg",    "years_of_experience": 20 
+        "id": "2", 
+         "name": "Giada De Laurentiis",    "picture": "https://example.com/giada-de-laurentiis.jpg",    "years_of_experience": 20 ,
+         "Numbers of recipes":15,
+         "Likes":200
      }, 
-     {    
-        "name": "Massimo Bottura",    "picture": "https://example.com/massimo-bottura.jpg",    "years_of_experience": 30  
+     {  
+        "id": "3",   
+        "name": "Massimo Bottura",    "picture": "https://example.com/massimo-bottura.jpg",    "years_of_experience": 30,
+        "Numbers of recipes":19,
+         "Likes":175
      },  
      
-     {    
+     {   
+        "id": "4",  
         "name": "Carlo Cracco",   
-         "picture": "https://example.com/carlo-cracco.jpg",    "years_of_experience": 20 
+         "picture": "https://example.com/carlo-cracco.jpg",   
+          "years_of_experience": 20,
+          "Numbers of recipes":15,
+         "Likes":166 
          
       }, 
       
-      {    
-        "name": "Gualtiero Marchesi",    "picture": "https://example.com/gualtiero-marchesi.jpg",    "years_of_experience": 40 
+      {   
+        "id": "5", 
+        "name": "Gualtiero Marchesi",    "picture": "https://example.com/gualtiero-marchesi.jpg",    "years_of_experience": 40,
+        "Numbers of recipes":17,
+         "Likes":185
      }, 
       {   
-         "name": "Lidia Bastianich",    "picture": "https://example.com/lidia-bastianich.jpg",    "years_of_experience": 50  
+        "id": "6",
+         "name": "Lidia Bastianich",    "picture": "https://example.com/lidia-bastianich.jpg",    "years_of_experience": 50,
+         "Numbers of recipes":19,
+         "Likes":225  
       }
     ]
