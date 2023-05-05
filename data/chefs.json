@@ -1,61 +1,359 @@
-[  
-    {    
-        "id": "1", 
-        "name": "Mario Batali",    
-        "picture":"https://i.pinimg.com/564x/4e/65/d8/4e65d87dddb6a817f4cae25d657abeb1.jpg", 
-        "description": "Mario Batali is an American chef, writer, restaurateur, and media personality. He is the owner of several restaurants and has published several cookbooks.",
-      
-         "years_of_experience": "25 years" ,
-         "numbers_of_recipes":10,
-         "likes":135
-
-    },  
-    {   
-        "id": "2", 
-         "name": "Giada De Laurentiis",    
-         "picture":"https://gennarocontaldo.com/wp-content/uploads/2016/12/gennaro_tom_smith.jpg", 
-         "description": "Giada De Laurentiis is an Italian-American chef, writer, and television personality. She is the host of several cooking shows and has published several cookbooks.",
-        "years_of_experience": "20 years" ,
-         "numbers_of_recipes":15,
-         "likes":200
-     }, 
-     {  
-        "id": "3",   
-        "name": "Massimo Bottura",    
-        "picture": "https://cdn.vox-cdn.com/thumbor/LR7aloR9EMjtWEqI5PfoxrekShk=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13437331/GettyImages_947556768.jpg", 
-        "description": "Massimo Bottura is an Italian chef and restaurateur. He is the owner of Osteria Francescana, a three-Michelin-star restaurant in Modena, Italy.",   
-        "years_of_experience": "30 years",
-        "numbers_of_recipes":19,
-         "likes":175
-     },  
-     
-     {   
-        "id": "4",  
-        "name": "Carlo Cracco",   
-         "picture": "https://media.cnn.com/api/v1/images/stellar/prod/150304111651-massimo-bottura-osteria.jpg?q=w_1600,h_1032,x_0,y_0,c_fill",
-         "description": "Carlo Cracco is an Italian chef and television personality. He is the owner of several restaurants in Milan and has appeared on several Italian cooking shows.",   
-          "years_of_experience": "20 years",
-          "numbers_of_recipes":15,
-         "likes":166 
-         
-      }, 
-      
-      {   
-        "id": "5", 
-        "name": "Gualtiero Marchesi",    
-        "picture": "https://i0.wp.com/www.foodandwinegazette.com/wp-content/uploads/2019/10/img_3971.jpg?fit=1095%2C912&ssl=1", 
-        "description": "Gualtiero Marchesi was an Italian chef and restaurateur. He was known for being the first Italian chef to receive three Michelin stars and for his innovative approach to Italian cuisine.",   
-        "years_of_experience": "10 years",
-        "numbers_of_recipes":17,
-         "likes":185
-     }, 
-      {   
-        "id": "6",
-         "name": "Lidia Bastianich",    
-         "picture": "https://thiswaytoitaly.com/wp-content/uploads/2022/11/Gianfranco-Chiarini-Italian-Chefs.webp",    
-         "description": "Lidia Bastianich is an Italian-American chef, television personality, and restaurateur. She is the owner of several restaurants and has published several cookbooks.",
-         "years_of_experience": "14 years",
-         "numbers_of_recipes":19,
-         "likes":225  
+[
+  
+  {
+    "id": "1",
+    "name": "Massimo Bottura",
+    "picture": "https://cdn.vox-cdn.com/thumbor/LR7aloR9EMjtWEqI5PfoxrekShk=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13437331/GettyImages_947556768.jpg",
+    "description": "Massimo Bottura is an Italian chef and restaurateur. He is the owner of Osteria Francescana, a three-Michelin-star restaurant in Modena, Italy.",
+    "years_of_experience": "30 years",
+    "numbers_of_recipes": 19,
+    "likes": 175,
+    "recipes": [
+      {
+        "id": "1",
+        "name": "Lasagna",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "egg",
+          "onion",
+          "garlic",
+          "olive oil"
+        ],
+        "method": "1. Preheat oven to 375°F. \n2. Cook lasagna noodles according to package directions. \n3. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned. \n4. Drain any excess fat and stir in tomato sauce. \n5. In a separate bowl, mix ricotta cheese, mozzarella cheese, parmesan cheese, and egg until well combined. \n6. Spread a layer of meat sauce on the bottom of a baking dish. \n7. Arrange a layer of lasagna noodles over the sauce. \n8. Spread a layer of cheese mixture over the noodles. \n9. Repeat layers, ending with a layer of meat sauce on top. \n10. Cover with foil and bake for 25 minutes. \n11. Remove foil and bake for an additional 25 minutes, or until cheese is melted and bubbly. \n12. Let stand for 10 minutes before serving.",
+        "rating": 5.0,
+        "favorite": false
+      },
+      {
+        "id": "2",
+        "name": "Lasagna",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "egg",
+          "onion",
+          "garlic",
+          "olive oil"
+        ],
+        "method": "1. Preheat oven to 375°F. \n2. Cook lasagna noodles according to package directions. \n3. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned. \n4. Drain any excess fat and stir in tomato sauce. \n5. In a separate bowl, mix ricotta cheese, mozzarella cheese, parmesan cheese, and egg until well combined. \n6. Spread a layer of meat sauce on the bottom of a baking dish. \n7. Arrange a layer of lasagna noodles over the sauce. \n8. Spread a layer of cheese mixture over the noodles. \n9. Repeat layers, ending with a layer of meat sauce on top. \n10. Cover with foil and bake for 25 minutes. \n11. Remove foil and bake for an additional 25 minutes, or until cheese is melted and bubbly. \n12. Let stand for 10 minutes before serving.",
+        "rating": 5.0,
+        "favorite": false
+      },
+      {
+        "id": "3",
+        "name": "Lasagna",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "egg",
+          "onion",
+          "garlic",
+          "olive oil"
+        ],
+        "method": "1. Preheat oven to 375°F. \n2. Cook lasagna noodles according to package directions. \n3. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned. \n4. Drain any excess fat and stir in tomato sauce. \n5. In a separate bowl, mix ricotta cheese, mozzarella cheese, parmesan cheese, and egg until well combined. \n6. Spread a layer of meat sauce on the bottom of a baking dish. \n7. Arrange a layer of lasagna noodles over the sauce. \n8. Spread a layer of cheese mixture over the noodles. \n9. Repeat layers, ending with a layer of meat sauce on top. \n10. Cover with foil and bake for 25 minutes. \n11. Remove foil and bake for an additional 25 minutes, or until cheese is melted and bubbly. \n12. Let stand for 10 minutes before serving.",
+        "rating": 5.0,
+        "favorite": false
       }
     ]
+  },
+  {
+    "id": "2",
+    "name": "Carlo Cracco",
+    "picture": "https://media.cnn.com/api/v1/images/stellar/prod/150304111651-massimo-bottura-osteria.jpg?q=w_1600,h_1032,x_0,y_0,c_fill",
+    "description": "Carlo Cracco is an Italian chef and television personality. He is the owner of several restaurants in Milan and has appeared on several Italian cooking shows.",
+    "years_of_experience": "20 years",
+    "numbers_of_recipes": 15,
+    "likes": 166,
+    "recipes":[
+      {
+        "id": "1",
+        "name": "Lasagna",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "egg",
+          "onion",
+          "garlic",
+          "olive oil"
+        ],
+        "method": "1. Preheat oven to 375°F. \n2. Cook lasagna noodles according to package directions. \n3. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned. \n4. Drain any excess fat and stir in tomato sauce. \n5. In a separate bowl, mix ricotta cheese, mozzarella cheese, parmesan cheese, and egg until well combined. \n6. Spread a layer of meat sauce on the bottom of a baking dish. \n7. Arrange a layer of lasagna noodles over the sauce. \n8. Spread a layer of cheese mixture over the noodles. \n9. Repeat layers, ending with a layer of meat sauce on top. \n10. Cover with foil and bake for 25 minutes. \n11. Remove foil and bake for an additional 25 minutes, or until cheese is melted and bubbly. \n12. Let stand for 10 minutes before serving.",
+        "rating": 5.0,
+        "favorite": false
+      },
+      {
+        "id": "2",
+        "name": "Lasagna",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "egg",
+          "onion",
+          "garlic",
+          "olive oil"
+        ],
+        "method": "1. Preheat oven to 375°F. \n2. Cook lasagna noodles according to package directions. \n3. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned. \n4. Drain any excess fat and stir in tomato sauce. \n5. In a separate bowl, mix ricotta cheese, mozzarella cheese, parmesan cheese, and egg until well combined. \n6. Spread a layer of meat sauce on the bottom of a baking dish. \n7. Arrange a layer of lasagna noodles over the sauce. \n8. Spread a layer of cheese mixture over the noodles. \n9. Repeat layers, ending with a layer of meat sauce on top. \n10. Cover with foil and bake for 25 minutes. \n11. Remove foil and bake for an additional 25 minutes, or until cheese is melted and bubbly. \n12. Let stand for 10 minutes before serving.",
+        "rating": 5.0,
+        "favorite": false
+      },
+      {
+        "id": "3",
+        "name": "Lasagna",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "egg",
+          "onion",
+          "garlic",
+          "olive oil"
+        ],
+        "method": "1. Preheat oven to 375°F. \n2. Cook lasagna noodles according to package directions. \n3. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned. \n4. Drain any excess fat and stir in tomato sauce. \n5. In a separate bowl, mix ricotta cheese, mozzarella cheese, parmesan cheese, and egg until well combined. \n6. Spread a layer of meat sauce on the bottom of a baking dish. \n7. Arrange a layer of lasagna noodles over the sauce. \n8. Spread a layer of cheese mixture over the noodles. \n9. Repeat layers, ending with a layer of meat sauce on top. \n10. Cover with foil and bake for 25 minutes. \n11. Remove foil and bake for an additional 25 minutes, or until cheese is melted and bubbly. \n12. Let stand for 10 minutes before serving.",
+        "rating": 5.0,
+        "favorite": false
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Gualtiero Marchesi",
+    "picture": "https://i0.wp.com/www.foodandwinegazette.com/wp-content/uploads/2019/10/img_3971.jpg?fit=1095%2C912&ssl=1",
+    "description": "Gualtiero Marchesi was an Italian chef and restaurateur. He was known for being the first Italian chef to receive three Michelin stars and for his innovative approach to Italian cuisine.",
+    "years_of_experience": "10 years",
+    "numbers_of_recipes": 17,
+    "likes": 185,
+    "recipes":[
+      {
+        "id": "r001",
+        "name": "Spaghetti Carbonara",
+        "ingredients": [
+          "spaghetti",
+          "pancetta",
+          "egg yolks",
+          "parmesan cheese",
+          "black pepper"
+        ],
+        "method": "1. Cook spaghetti in a large pot of boiling salted water until al dente. \n2. Meanwhile, in a large skillet, cook pancetta over medium heat until crisp. \n3. In a small bowl, whisk egg yolks, parmesan cheese, and black pepper together. \n4. Drain spaghetti and add to the skillet with pancetta. \n5. Remove skillet from heat and quickly stir in egg yolk mixture until spaghetti is coated. \n6. Serve immediately.",
+        "rating": 4.8
+      },
+      {
+        "id": "r002",
+        "name": "Margherita Pizza",
+        "ingredients": [
+          "pizza dough",
+          "tomatoes",
+          "fresh mozzarella",
+          "fresh basil",
+          "olive oil"
+        ],
+        "method": "1. Preheat oven to 450°F. \n2. Roll out pizza dough and place on a baking sheet. \n3. Top with sliced tomatoes and fresh mozzarella cheese. \n4. Drizzle with olive oil. \n5. Bake for 10-12 minutes, or until crust is golden brown. \n6. Remove from oven and top with fresh basil leaves.",
+        "rating": 4.5
+      },
+      {
+        "id": "r003",
+        "name": "Lasagna",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "onion",
+          "garlic",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "egg",
+          "dried basil",
+          "salt",
+          "black pepper"
+        ],
+        "method": "1. Preheat oven to 375°F. \n2. Cook lasagna noodles according to package directions. \n3. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned. \n4. Drain any excess fat and stir in tomato sauce. \n5. In a separate bowl, mix ricotta cheese, mozzarella cheese, parmesan cheese, egg, dried basil, salt, and black pepper until well combined. \n6. Spread a layer of meat sauce on the bottom of a baking dish. \n7. Arrange a layer of lasagna noodles over the sauce. \n8. Spread a layer of cheese mixture over the noodles. \n9. Repeat layers, ending with a layer of meat sauce on top. \n10. Cover with foil and bake for 25 minutes. \n11. Remove foil and bake for an additional 25 minutes, or until cheese is melted and bubbly. \n12. Let stand for 10 minutes before serving.",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Lidia Bastianich",
+    "picture": "https://thiswaytoitaly.com/wp-content/uploads/2022/11/Gianfranco-Chiarini-Italian-Chefs.webp",
+    "description": "Lidia Bastianich is an Italian-American chef, television personality, and restaurateur. She is the owner of several restaurants and has published several cookbooks.",
+    "years_of_experience": "14 years",
+    "numbers_of_recipes": 19,
+    "likes": 225,
+    "recipes":[
+      {
+        "id": "r001",
+        "name": "Spaghetti Carbonara",
+        "ingredients": [
+          "spaghetti",
+          "pancetta",
+          "egg yolks",
+          "parmesan cheese",
+          "black pepper"
+        ],
+        "method": "1. Cook spaghetti in a large pot of boiling salted water until al dente. \n2. Meanwhile, in a large skillet, cook pancetta over medium heat until crisp. \n3. In a small bowl, whisk egg yolks, parmesan cheese, and black pepper together. \n4. Drain spaghetti and add to the skillet with pancetta. \n5. Remove skillet from heat and quickly stir in egg yolk mixture until spaghetti is coated. \n6. Serve immediately.",
+        "rating": 4.8
+      },
+      {
+        "id": "r002",
+        "name": "Margherita Pizza",
+        "ingredients": [
+          "pizza dough",
+          "tomatoes",
+          "fresh mozzarella",
+          "fresh basil",
+          "olive oil"
+        ],
+        "method": "1. Preheat oven to 450°F. \n2. Roll out pizza dough and place on a baking sheet. \n3. Top with sliced tomatoes and fresh mozzarella cheese. \n4. Drizzle with olive oil. \n5. Bake for 10-12 minutes, or until crust is golden brown. \n6. Remove from oven and top with fresh basil leaves.",
+        "rating": 4.5
+      },
+      {
+        "id": "r003",
+        "name": "Lasagna",
+        "ingredients": [
+          "lasagna noodles",
+          "ground beef",
+          "onion",
+          "garlic",
+          "tomato sauce",
+          "ricotta cheese",
+          "mozzarella cheese",
+          "parmesan cheese",
+          "egg",
+          "dried basil",
+          "salt",
+          "black pepper"
+        ],
+        "method": "1. Preheat oven to 375°F. \n2. Cook lasagna noodles according to package directions. \n3. In a large skillet, cook ground beef, onion, and garlic over medium heat until beef is browned. \n4. Drain any excess fat and stir in tomato sauce. \n5. In a separate bowl, mix ricotta cheese, mozzarella cheese, parmesan cheese, egg, dried basil, salt, and black pepper until well combined. \n6. Spread a layer of meat sauce on the bottom of a baking dish. \n7. Arrange a layer of lasagna noodles over the sauce. \n8. Spread a layer of cheese mixture over the noodles. \n9. Repeat layers, ending with a layer of meat sauce on top. \n10. Cover with foil and bake for 25 minutes. \n11. Remove foil and bake for an additional 25 minutes, or until cheese is melted and bubbly. \n12. Let stand for 10 minutes before serving.",
+        "rating": 4.9
+      }
+    ]  
+  },
+  {
+    "id": "5",
+    "name": "Mario Batali",
+    "picture": "https://i.pinimg.com/564x/4e/65/d8/4e65d87dddb6a817f4cae25d657abeb1.jpg",
+    "description": "Mario Batali is an American chef, writer, restaurateur, and media personality. He is the owner of several restaurants and has published several cookbooks.",
+    "years_of_experience": "25 years",
+    "numbers_of_recipes": 10,
+    "likes": 135,
+    "recipes": [
+      {
+        "id": "1",
+        "name": "Pesto pasta",
+        "ingredients": [
+          "pasta",
+          "basil leaves",
+          "pine nuts",
+          "garlic",
+          "parmesan cheese",
+          "olive oil"
+        ],
+        "method": "1. Cook pasta according to package directions. \n2. In a food processor, pulse basil leaves, pine nuts, garlic, and parmesan cheese until finely chopped. \n3. With the motor running, slowly drizzle in olive oil until mixture is smooth. \n4. Toss pasta with pesto sauce and serve.",
+        "rating": 4.5,
+        "favorite": false
+      },
+      {
+        "id": "2",
+        "name": "Pesto pasta",
+        "ingredients": [
+          "pasta",
+          "basil leaves",
+          "pine nuts",
+          "garlic",
+          "parmesan cheese",
+          "olive oil"
+        ],
+        "method": "1. Cook pasta according to package directions. \n2. In a food processor, pulse basil leaves, pine nuts, garlic, and parmesan cheese until finely chopped. \n3. With the motor running, slowly drizzle in olive oil until mixture is smooth. \n4. Toss pasta with pesto sauce and serve.",
+        "rating": 4.5,
+        "favorite": false
+      },
+      {
+        "id": "3",
+        "name": "Pesto pasta",
+        "ingredients": [
+          "pasta",
+          "basil leaves",
+          "pine nuts",
+          "garlic",
+          "parmesan cheese",
+          "olive oil"
+        ],
+        "method": "1. Cook pasta according to package directions. \n2. In a food processor, pulse basil leaves, pine nuts, garlic, and parmesan cheese until finely chopped. \n3. With the motor running, slowly drizzle in olive oil until mixture is smooth. \n4. Toss pasta with pesto sauce and serve.",
+        "rating": 4.5,
+        "favorite": false
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Giada De Laurentiis",
+    "picture": "https://gennarocontaldo.com/wp-content/uploads/2016/12/gennaro_tom_smith.jpg",
+    "description": "Giada De Laurentiis is an Italian-American chef, writer, and television personality. She is the host of several cooking shows and has published several cookbooks.",
+    "years_of_experience": "20 years",
+    "numbers_of_recipes": 15,
+    "likes": 200,
+    "recipes": [
+      {
+        "id": "1",
+        "name": "Margherita pizza",
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "basil leaves"
+        ],
+        "method": "1. Preheat oven to 450°F. \n2. Roll out pizza dough and place on a baking sheet. \n3. Spread tomato sauce on top of dough, leaving a small border around the edge. \n4. Sprinkle mozzarella cheese over the sauce. \n5. Bake for 10-12 minutes, or until crust is golden brown. \n6. Remove from oven and sprinkle with fresh basil leaves.",
+        "rating": 4.0,
+        "favorite": true
+      },
+      {
+        "id": "2",
+        "name": "Margherita pizza",
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "basil leaves"
+        ],
+        "method": "1. Preheat oven to 450°F. \n2. Roll out pizza dough and place on a baking sheet. \n3. Spread tomato sauce on top of dough, leaving a small border around the edge. \n4. Sprinkle mozzarella cheese over the sauce. \n5. Bake for 10-12 minutes, or until crust is golden brown. \n6. Remove from oven and sprinkle with fresh basil leaves.",
+        "rating": 4.0,
+        "favorite": true
+      },
+      {
+        "id": "3",
+        "name": "Margherita pizza",
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "basil leaves"
+        ],
+        "method": "1. Preheat oven to 450°F. \n2. Roll out pizza dough and place on a baking sheet. \n3. Spread tomato sauce on top of dough, leaving a small border around the edge. \n4. Sprinkle mozzarella cheese over the sauce. \n5. Bake for 10-12 minutes, or until crust is golden brown. \n6. Remove from oven and sprinkle with fresh basil leaves.",
+        "rating": 4.0,
+        "favorite": true
+      }
+    ]
+  }
+]
